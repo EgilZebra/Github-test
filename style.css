@@ -1,0 +1,66 @@
+body {
+    width: 80%;
+    background-color: antiquewhite;
+}
+header {
+    width: 100%;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 2500;
+    font-size: 52px;
+    background-color: burlywood;
+    margin-bottom: 0;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 1rem;
+    border-radius: 1rem;
+}
+
+nav {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: lightseagreen;
+    border: solid .3rem brown;
+    border-radius: 1rem;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    grid-area: 1/1;
+    margin-left: 2rem;
+    gap: 1rem;
+    background-color: chartreuse;
+    border-radius: 1rem;
+    border: solid 0.3rem saddlebrown;
+    padding: 1rem;
+}
+
+section {
+    grid-area: 1/2;
+    padding: 2rem;
+    height: 20rem;
+    border-radius: 2rem;
+    background-image: url(https://www.animalsplanet.net/wp-content/uploads/2023/08/Natterjack-Toad.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    
+}
+
+
+footer {
+    margin-top: 2rem;
+    background-color: brown;
+    height: 12rem;
+    color: aqua;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 900;
+}
